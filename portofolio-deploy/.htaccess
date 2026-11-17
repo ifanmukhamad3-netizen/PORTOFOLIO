@@ -1,0 +1,62 @@
+# ============================================================
+# IMPERIUM — konfigurasi Apache (InfinityFree)
+# ============================================================
+
+# Larang melihat daftar file di folder tanpa index
+Options -Indexes
+
+# ------------------------------------------------------------
+# KEAMANAN — blokir akses langsung dari browser ke file sensitif:
+#   api/config*.php  (konfigurasi database)
+#   database.sql     (struktur database)
+#   *.sqlite / *.db  (database uji lokal)
+#   *.log            (log)
+# Aturan ini TIDAK mengganggu require/include antar file PHP.
+# ------------------------------------------------------------
+<IfModule mod_authz_core.c>
+  <FilesMatch "^(config(\.(local|infinityfree|example))?\.php)$">
+    Require all denied
+  </FilesMatch>
+  <FilesMatch "\.(sql|sqlite|db|log)$">
+    Require all denied
+  </FilesMatch>
+  <FilesMatch "^\.">
+    Require all denied
+  </FilesMatch>
+</IfModule>
+# Fallback Apache 2.2 (bila mod_authz_core tidak ada)
+<IfModule !mod_authz_core.c>
+  <FilesMatch "^(config(\.(local|infinityfree|example))?\.php)$">
+    Order allow,deny
+    Deny from all
+  </FilesMatch>
+  <FilesMatch "\.(sql|sqlite|db|log)$">
+    Order allow,deny
+    Deny from all
+  </FilesMatch>
+  <FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Kompatibilitas URL gaya Flask lama (opsional).
+  # script.js versi baru sudah langsung memanggil api/assignment.php,
+  # aturan ini hanya menjaga tautan lama tetap berfungsi:
+  RewriteRule ^api/assignment/([^/]+)/([^/]+)/?$ api/assignment.php?courseId=$1&meetingNo=$2 [QSA,L]
+  RewriteRule ^api/assignments/?$ api/assignment.php?list=1 [QSA,L]
+</IfModule>
+
+# ------------------------------------------------------------
+# OPSIONAL: paksa HTTPS. Aktifkan (hapus tanda #) SETELAH Anda
+# menyalakan SSL gratis di Control Panel InfinityFree,
+# kalau belum situs bisa gagal diakses.
+# ------------------------------------------------------------
+# <IfModule mod_rewrite.c>
+#   RewriteEngine On
+#   RewriteCond %{HTTPS} !=on
+#   RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+# </IfModule>

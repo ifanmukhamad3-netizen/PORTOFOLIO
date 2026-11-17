@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="id" class="no-js tabs-mode">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PORTOFOLIO Ifan Mukhamad Juniawan, mahasiswa Teknik Informatika. Arsip akademik, perjalanan, dan galeri karya.">
+  <meta name="theme-color" content="#0B0B0D">
+  <title>PORTOFOLIO | Ifan Mukhamad Juniawan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <noscript><style>#loader,.cursor-dot,.cursor-ring{display:none!important}[data-reveal]{opacity:1!important;transform:none!important}</style></noscript>
+</head>
+<body>
+
+<!-- Film grain sinematik (dekoratif) -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ==================== SVG SYMBOL LIBRARY (ornamen Romawi) ==================== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="grad-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E4C486"/>
+      <stop offset=".5" stop-color="#C5A15A"/>
+      <stop offset="1" stop-color="#8C6B3F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Pilar Corinthian (line-art) -->
+  <symbol id="sym-pillar" viewBox="0 0 120 620">
+    <g fill="none" stroke="url(#grad-gold)" stroke-width="2" stroke-linecap="round">
+      <rect x="18" y="10" width="84" height="16" rx="2"/>
+      <path d="M26 26 h68 M26 44 h68"/>
+      <path d="M28 44 C 30 62, 24 66, 22 78 M92 44 C 90 62, 96 66, 98 78"/>
+      <path d="M22 78 q38 18 76 0"/>
+      <rect x="30" y="84" width="60" height="452" rx="3"/>
+      <path d="M42 92 v436 M54 92 v436 M66 92 v436 M78 92 v436"/>
+      <path d="M30 536 h60"/>
+      <rect x="24" y="544" width="72" height="16" rx="2"/>
+      <rect x="16" y="568" width="88" height="22" rx="2"/>
+      <path d="M16 590 h88"/>
+    </g>
+  </symbol>
+
+  <!-- Dua laurel (karangan emas) -->
+  <symbol id="sym-laurel" viewBox="0 0 260 160">
+    <g transform="translate(130,148)">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M0 0 C -32 -7 -60 -30 -72 -70"/>
+        <path d="M0 0 C 32 -7 60 -30 72 -70"/>
+      </g>
+      <g fill="currentColor">
+        <!-- daun runcing cabang kiri (menunjuk ke atas-luar) -->
+        <path transform="translate(-13,-3) rotate(-78)"  d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(-29,-9) rotate(-63)"  d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(-43,-19) rotate(-49)" d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(-55,-33) rotate(-36)" d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(-63,-49) rotate(-24)" d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(-68,-66) rotate(-12)" d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(-70,-83) rotate(-2)"  d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <!-- daun dalam (lebih kecil, ke arah tengah) -->
+        <path transform="translate(-24,-14) rotate(-24) scale(0.72)" d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(-40,-30) rotate(-8) scale(0.72)"  d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(-52,-48) rotate(8) scale(0.72)"   d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(-60,-68) rotate(24) scale(0.72)"  d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <!-- daun cabang kanan (cermin) -->
+        <path transform="translate(13,-3) rotate(78) scale(-1,1)"  d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(29,-9) rotate(63) scale(-1,1)"  d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(43,-19) rotate(49) scale(-1,1)" d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(55,-33) rotate(36) scale(-1,1)" d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(63,-49) rotate(24) scale(-1,1)" d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(68,-66) rotate(12) scale(-1,1)" d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(70,-83) rotate(2) scale(-1,1)"  d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(24,-14) rotate(24) scale(-0.72,0.72)" d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(40,-30) rotate(8) scale(-0.72,0.72)"  d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(52,-48) rotate(-8) scale(-0.72,0.72)" d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <path transform="translate(60,-68) rotate(-24) scale(-0.72,0.72)" d="M0 2 Q 3.2 -6 0 -15 Q -3.2 -6 0 2 Z"/>
+        <!-- sepasang daun kecil di pangkal tengah -->
+        <path transform="translate(-2,-2) rotate(-40)" d="M0 2 Q 3 -5.5 0 -13 Q -3 -5.5 0 2 Z"/>
+        <path transform="translate(2,-2) rotate(40) scale(-1,1)" d="M0 2 Q 3 -5.5 0 -13 Q -3 -5.5 0 2 Z"/>
+        <!-- buah laurel -->
+        <circle cx="-8" cy="-10" r="1.8"/>
+        <circle cx="8" cy="-10" r="1.8"/>
+      </g>
+    </g>
+  </symbol>
+
+  <!-- Lengkungan archway -->
+  <symbol id="sym-arch" viewBox="0 0 480 140">
+    <g fill="none" stroke="url(#grad-gold)" stroke-width="2.5" stroke-linecap="round">
+      <path d="M14 138 V 92 C 14 46, 100 12, 240 12 C 380 12, 466 46, 466 92 V 138"/>
+      <path d="M34 138 V 96 C 34 58, 112 30, 240 30 C 368 30, 446 58, 446 96 V 138"/>
+      <path d="M240 12 v 18"/>
+      <path d="M120 26 l 4 16 M360 26 l -4 16"/>
+      <circle cx="240" cy="58" r="10"/>
+      <path d="M240 48 v -8 M240 68 v 8 M230 58 h -8 M250 58 h 8"/>
+    </g>
+  </symbol>
+</svg>
+
+<!-- ==================== LOADING SCREEN — GATE OF THE EMPIRE ==================== -->
+<div id="loader" role="status" aria-label="Memuat Portofolio">
+  <div class="loader-gate gate-left"></div>
+  <div class="loader-gate gate-right"></div>
+  <div class="loader-inner">
+    <svg class="loader-laurel" aria-hidden="true"><use href="#sym-laurel"/></svg>
+    <h1 class="loader-word" aria-label="PORTOFOLIO">
+      <span>P</span><span>O</span><span>R</span><span>T</span><span>O</span><span>F</span><span>O</span><span>L</span><span>I</span><span>O</span>
+    </h1>
+    <p class="loader-sub">· PORTOFOLIO ·</p>
+    <div class="loader-progress">
+      <div class="loader-track"><div class="loader-fill" id="loader-fill"></div></div>
+      <div class="loader-readout">
+        <span class="loader-numeral" id="loader-numeral">I</span>
+        <span class="loader-pct" id="loader-pct">0%</span>
+      </div>
+    </div>
+  </div>
+  <div class="loader-meander" aria-hidden="true"></div>
+</div>
+
+<!-- ==================== CUSTOM CURSOR ==================== -->
+<div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursor-ring" aria-hidden="true"></div>
+
+<!-- ==================== NAVBAR ==================== -->
+<header id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo" data-scroll aria-label="PORTOFOLIO — kembali ke beranda">
+      <svg class="logo-laurel" aria-hidden="true"><use href="#sym-laurel"/></svg>
+      <span class="logo-text">PORTOFOLIO</span>
+    </a>
+
+    <nav class="nav-links" id="nav-links" aria-label="Navigasi utama">
+      <a href="#hero"     class="nav-link active" data-scroll>Beranda</a>
+      <a href="#about"    class="nav-link" data-scroll>Tentang</a>
+      <a href="#academic" class="nav-link" data-scroll>Akademik</a>
+      <a href="#skills"   class="nav-link" data-scroll>Skills</a>
+      <a href="#projects" class="nav-link" data-scroll>Galeri</a>
+      <a href="#journey"  class="nav-link" data-scroll>Kontak</a>
+      <span class="nav-indicator" id="nav-indicator" aria-hidden="true"></span>
+    </nav>
+
+    <div class="nav-right">
+      <div class="nav-status" title="Status"><span class="status-dot"></span><span>Online</span></div>
+      <a href="#about" class="nav-avatar" data-scroll id="nav-avatar" aria-label="Foto profil">
+        <img id="nav-avatar-img" src="" alt="" class="hidden">
+        <i id="nav-avatar-icon" class="fa-solid fa-user-gear"></i>
+      </a>
+      <button id="nav-burger" class="nav-burger" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu overlay -->
+<div id="mobile-menu" aria-hidden="true">
+  <nav class="mobile-nav">
+    <a href="#hero"     class="mobile-link" data-scroll><span class="ml-num">I</span>Beranda</a>
+    <a href="#about"    class="mobile-link" data-scroll><span class="ml-num">II</span>Tentang</a>
+    <a href="#academic" class="mobile-link" data-scroll><span class="ml-num">III</span>Akademik</a>
+    <a href="#skills"   class="mobile-link" data-scroll><span class="ml-num">IV</span>Skills</a>
+    <a href="#projects" class="mobile-link" data-scroll><span class="ml-num">V</span>Galeri</a>
+    <a href="#journey"  class="mobile-link" data-scroll><span class="ml-num">VI</span>Kontak</a>
+  </nav>
+  <p class="mobile-foot">· HAVE NO FEAR, PORTOFOLIO IS HERE ·</p>
+</div>
+
+<main id="main">
+
+  <!-- ==================== HERO — THE ENTRANCE OF EMPIRE ==================== -->
+  <section id="hero" class="section hero is-active">
+    <canvas id="gold-dust" aria-hidden="true"></canvas>
+    <div class="hero-vignette" aria-hidden="true"></div>
+
+    <div class="hero-stage" aria-hidden="true">
+      <div class="hero-layer" data-depth="0.5">
+        <svg class="hero-arch"><use href="#sym-arch"/></svg>
+      </div>
+      <div class="hero-layer pillars" data-depth="0.9">
+        <svg class="hero-pillar p1" data-depth="0.35"><use href="#sym-pillar"/></svg>
+        <svg class="hero-pillar p2" data-depth="0.6"><use href="#sym-pillar"/></svg>
+        <svg class="hero-pillar p3" data-depth="0.9"><use href="#sym-pillar"/></svg>
+        <svg class="hero-pillar p4" data-depth="0.35"><use href="#sym-pillar"/></svg>
+        <svg class="hero-pillar p5" data-depth="0.6"><use href="#sym-pillar"/></svg>
+        <svg class="hero-pillar p6" data-depth="0.9"><use href="#sym-pillar"/></svg>
+      </div>
+      <div class="hero-floor" data-depth="0.4"></div>
+    </div>
+
+    <div class="hero-content">
+      <svg class="hero-emblem" aria-hidden="true"><use href="#sym-laurel"/></svg>
+      <p class="hero-eyebrow" data-reveal>· HAVE NO FEAR, PORTOFOLIO IS HERE ·</p>
+      <h1 class="hero-title" id="hero-title" aria-label="PORTOFOLIO">
+        <span class="ht-letter">P</span><span class="ht-letter">O</span><span class="ht-letter">R</span><span class="ht-letter">T</span><span class="ht-letter">O</span><span class="ht-letter">F</span><span class="ht-letter">O</span><span class="ht-letter">L</span><span class="ht-letter">I</span><span class="ht-letter">O</span>
+      </h1>
+      <p class="hero-tagline" data-reveal>“Building Digital Legacies Through Technology.”</p>
+      <p class="hero-name" data-reveal>
+        Ifan Mukhamad Juniawan <span class="hero-sep">—</span> Mahasiswa Teknik Informatika · Data Science
+      </p>
+      <div class="hero-cta" data-reveal>
+        <a href="#academic" class="btn btn-primary btn-magnetic" data-scroll>
+          <i class="fa-solid fa-landmark-dome"></i> Lihat Portofolio
+        </a>
+        <a href="#about" class="btn btn-secondary btn-magnetic" data-scroll>Tentang Saya</a>
+      </div>
+      <div class="hero-meta" data-reveal>
+        <span><i class="fa-solid fa-location-dot"></i> Cirebon, Indonesia</span>
+        <span class="dot-sep">·</span>
+        <a href="https://umc.ac.id/" target="_blank" rel="noopener noreferrer" class="gold-link">Universitas Muhammadiyah Cirebon</a>
+      </div>
+    </div>
+
+    <a href="#about" class="hero-scroll" data-scroll aria-label="Gulir ke bawah">
+      <span class="hs-text">SCROLL</span>
+      <span class="hs-line"><span class="hs-dot"></span></span>
+      <span class="hs-num">II</span>
+    </a>
+  </section>
+
+  <!-- ==================== ABOUT — GALLERY OF THE EMPEROR ==================== -->
+  <section id="about" class="section about">
+    <div class="section-shell">
+      <header class="section-head" data-reveal>
+        <span class="sh-kicker">Chapter I · Tentang Saya</span>
+        <h2 class="section-title">THE EMPEROR’S <em>CHRONICLE</em></h2>
+        <div class="sh-divider"><span></span><i class="fa-solid fa-diamond"></i><span></span></div>
+        <p class="section-intro">Mengenal lebih dekat latar belakang akademik dan fokus pengembangan diri.</p>
+      </header>
+
+      <div class="about-grid">
+        <div class="about-visual" data-reveal>
+          <svg class="about-pillar left" aria-hidden="true"><use href="#sym-pillar"/></svg>
+          <svg class="about-pillar right" aria-hidden="true"><use href="#sym-pillar"/></svg>
+
+          <div class="portrait-stage" id="tilt-portrait">
+            <div class="portrait-frame">
+              <div class="portrait-arch"></div>
+              <img id="profile-img" src="" alt="Foto Ifan Mukhamad Juniawan" class="profile-img hidden">
+              <div id="profile-placeholder" class="profile-placeholder">
+                <i class="fa-solid fa-user-gear placeholder-icon"></i>
+                <p>Atur Foto Profil</p>
+              </div>
+              <div class="portrait-shine"></div>
+            </div>
+            <div class="portrait-plaque">SENATVS · POPVLVSQVE · ROMANVS</div>
+            <div class="photo-upload-actions">
+              <label for="avatar-input" class="btn btn-secondary btn-small file-label">
+                <i class="fa-solid fa-camera"></i> Unggah Foto
+              </label>
+              <input type="file" id="avatar-input" accept="image/*" hidden>
+              <button id="remove-photo-btn" class="btn btn-secondary btn-small hidden" title="Hapus Foto">
+                <i class="fa-solid fa-trash"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <div class="roman-box" data-reveal>
+            <div class="roman-box-corner tl"></div><div class="roman-box-corner tr"></div>
+            <div class="roman-box-corner bl"></div><div class="roman-box-corner br"></div>
+            <p>Saya adalah mahasiswa program studi <strong>Teknik Informatika</strong> di Universitas Muhammadiyah Cirebon dengan konsentrasi <strong>Data Science</strong>. Saya memiliki minat mendalam pada pengembangan web, pemrograman Python, dan rekayasa perangkat lunak.</p>
+            <p>PORTOFOLIO ini merekam jejak pembelajaran, arsip mata kuliah 16 pertemuan, serta proyek yang saya kerjakan secara terstruktur.</p>
+          </div>
+
+          <div class="about-cards">
+            <article class="info-card" data-reveal>
+              <i class="fa-solid fa-graduation-cap icon"></i>
+              <h3>Pendidikan</h3>
+              <p>Teknik Informatika · NIM 240511062 · Universitas Muhammadiyah Cirebon</p>
+            </article>
+            <article class="info-card" data-reveal>
+              <i class="fa-solid fa-code icon"></i>
+              <h3>Fokus Studi</h3>
+              <p>Data Science, Python, Web Development, &amp; Database</p>
+            </article>
+          </div>
+
+          <div class="code-card" id="code-card" data-reveal>
+            <div class="code-header">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+              <span class="code-title">portfolio_core.py</span>
+            </div>
+            <pre class="code-body"><code><span class="kw">class</span> <span class="cls">PortfolioDashboard</span>:
+    <span class="kw">def</span> <span class="fn">__init__</span>(<span class="kw">self</span>):
+        <span class="kw">self</span>.owner      = <span class="str">"Ifan Mukhamad Juniawan"</span>
+        <span class="kw">self</span>.nim        = <span class="str">"240511062"</span>
+        <span class="kw">self</span>.focus      = <span class="str">"Data Science"</span>
+        <span class="kw">self</span>.navigation = <span class="str">"Cinematic Scroll"</span>
+        <span class="kw">self</span>.status     = <span class="kw">True</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ACADEMIC — ROMAN KNOWLEDGE ARCHIVE ==================== -->
+  <section id="academic" class="section academic mode-gate">
+    <div class="section-shell">
+      <header class="section-head" data-reveal>
+        <span class="sh-kicker">Chapter II · Arsip Pengetahuan</span>
+        <h2 class="section-title">ACADEMIC <em>REPOSITORY</em></h2>
+        <div class="sh-divider"><span></span><i class="fa-solid fa-diamond"></i><span></span></div>
+        <p class="section-intro">Arsip mata kuliah per semester. Klik kartu untuk membaliknya dan menemukan arsip 16 pertemuan di baliknya — seperti gulungan di vault kekaisaran.</p>
+      </header>
+
+      <!-- ========== GERBANG AKSES: ADMIN / MODE DOSEN ========== -->
+      <div id="access-gate" class="access-gate" data-reveal>
+        <div class="gate-head">
+          <span class="gate-kicker">· Gerbang Arsip ·</span>
+          <h3 class="gate-title">PILIH MODE <em>AKSES</em></h3>
+          <p class="gate-sub">Academic Repository terbuka untuk dua peran — pemilik arsip (Admin) dan pengunjung (Mode Dosen).</p>
+        </div>
+        <div class="gate-cards">
+          <button type="button" class="gate-card gate-admin" id="gate-admin-btn">
+            <span class="gate-icon"><i class="fa-solid fa-user-shield" aria-hidden="true"></i></span>
+            <h4>ADMIN</h4>
+            <p>Login dengan username &amp; password untuk mengelola Academic Repository: mata kuliah, 16 pertemuan, unggah, sunting, dan hapus file tugas.</p>
+            <span class="gate-cta"><i class="fa-solid fa-key" aria-hidden="true"></i> Login Admin</span>
+          </button>
+          <button type="button" class="gate-card gate-dosen" id="gate-dosen-btn">
+            <span class="gate-icon"><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i></span>
+            <h4>MODE DOSEN</h4>
+            <p>Masuk langsung tanpa login — lihat semua mata kuliah &amp; pertemuan, buka dan unduh seluruh file tugas.</p>
+            <span class="gate-cta"><i class="fa-solid fa-eye" aria-hidden="true"></i> Masuk Tanpa Login</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ========== PANEL LOGIN ADMIN ========== -->
+      <div id="admin-login-panel" class="form-panel admin-login hidden" data-reveal>
+        <div class="form-panel-heading">
+          <h3>Login Admin — Arsip Imperium</h3>
+          <button class="icon-btn" type="button" id="admin-login-back" aria-label="Kembali ke pilihan mode"><i class="fa-solid fa-arrow-left"></i></button>
+        </div>
+        <form id="admin-login-form" class="data-form">
+          <label>Username
+            <input id="admin-username" autocomplete="username" required maxlength="60" placeholder="Username admin">
+          </label>
+          <label>Password
+            <input id="admin-password" type="password" autocomplete="current-password" required maxlength="72" placeholder="Password admin">
+          </label>
+          <div id="admin-login-error" class="login-error hidden" role="alert"></div>
+          <div class="form-actions">
+            <button type="button" class="btn btn-secondary" id="admin-login-cancel">Batal</button>
+            <button class="btn btn-primary" type="submit" id="admin-login-submit"><i class="fa-solid fa-key"></i> Masuk</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- ========== PANEL GANTI PASSWORD (khusus admin) ========== -->
+      <div id="admin-password-panel" class="form-panel hidden" data-admin-only data-reveal>
+        <div class="form-panel-heading">
+          <h3>Ganti Password Admin</h3>
+          <button class="icon-btn" type="button" id="admin-password-close" aria-label="Tutup panel ganti password"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <form id="admin-password-form" class="data-form">
+          <label>Password Lama
+            <input id="admin-pass-old" type="password" autocomplete="current-password" required maxlength="72">
+          </label>
+          <label>Password Baru <span class="opt">(minimal 8 karakter)</span>
+            <input id="admin-pass-new" type="password" autocomplete="new-password" required minlength="8" maxlength="72">
+          </label>
+          <label>Konfirmasi Password Baru
+            <input id="admin-pass-confirm" type="password" autocomplete="new-password" required minlength="8" maxlength="72">
+          </label>
+          <div id="admin-password-msg" class="login-error hidden" role="alert"></div>
+          <div class="form-actions">
+            <button type="button" class="btn btn-secondary" id="admin-password-cancel">Batal</button>
+            <button class="btn btn-primary" type="submit"><i class="fa-solid fa-shield-halved"></i> Simpan Password</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="academic-toolbar" data-reveal>
+        <div class="academic-summary" id="academic-summary"></div>
+        <div class="academic-mode" id="academic-mode">
+          <span class="mode-badge badge-admin hidden" id="mode-badge-admin"><i class="fa-solid fa-user-shield" aria-hidden="true"></i> ADMIN — <b id="mode-admin-name"></b></span>
+          <span class="mode-badge badge-dosen hidden" id="mode-badge-dosen"><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i> MODE DOSEN — HANYA LIHAT</span>
+          <button class="btn btn-secondary btn-small hidden" id="change-pass-btn" data-admin-only><i class="fa-solid fa-shield-halved"></i> Ganti Password</button>
+          <button class="btn btn-secondary btn-small hidden" id="logout-btn"><i class="fa-solid fa-right-from-bracket"></i> Logout</button>
+          <button class="btn btn-secondary btn-small hidden" id="change-mode-btn"><i class="fa-solid fa-repeat"></i> Ganti Mode</button>
+        </div>
+        <button class="btn btn-primary btn-magnetic" id="add-course-btn" data-admin-only>
+          <i class="fa-solid fa-plus"></i> Tambah Mata Kuliah
+        </button>
+      </div>
+
+      <div class="semester-tabs" id="semester-tabs" role="tablist" aria-label="Pilih semester" data-reveal></div>
+
+      <!-- Form CRUD mata kuliah (khusus admin) -->
+      <div id="course-form-wrap" class="form-panel hidden" data-admin-only data-reveal>
+        <div class="form-panel-heading">
+          <h3 id="course-form-title">Tambah Mata Kuliah</h3>
+          <button class="icon-btn" type="button" id="cancel-course-btn" aria-label="Tutup formulir"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <form id="course-form" class="data-form">
+          <input type="hidden" id="course-id">
+          <label>Nama Mata Kuliah
+            <input id="course-name" required maxlength="120" placeholder="Contoh: Pemrograman Web Lanjut">
+          </label>
+          <label>Deskripsi Singkat <span class="opt">(opsional — tampil di sisi belakang kartu)</span>
+            <textarea id="course-desc" rows="2" maxlength="300" placeholder="Deskripsi mata kuliah…"></textarea>
+          </label>
+          <div class="form-grid">
+            <label>Semester<select id="course-semester" required></select></label>
+            <label>Kelas / Kode Kelas<input id="course-class" maxlength="40" placeholder="Contoh: TI24C"></label>
+          </div>
+          <div class="form-actions">
+            <button type="button" class="btn btn-secondary" id="cancel-course-btn-2">Batal</button>
+            <button class="btn btn-primary" type="submit">Simpan Mata Kuliah</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Grid kartu 3D flip (dirender oleh script.js) -->
+      <div id="course-list" class="course-grid" aria-live="polite"></div>
+
+      <p class="storage-note" data-reveal>
+        <i class="fa-solid fa-circle-info"></i>
+        Mode Admin: data akademik tersimpan di MySQL melalui API PHP hosting. Mode Dosen: repository dibaca langsung dari server (hanya lihat &amp; unduh). Referensi folder Google Drive pribadi tetap dipertahankan.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS — IMPERIAL ABILITIES ==================== -->
+  <section id="skills" class="section skills">
+    <div class="section-shell">
+      <header class="section-head" data-reveal>
+        <span class="sh-kicker">Chapter III · Imperial Abilities</span>
+        <h2 class="section-title">MY SKILLS &amp; <em>COMPETENCIES</em></h2>
+        <div class="sh-divider"><span></span><i class="fa-solid fa-diamond"></i><span></span></div>
+        <p class="section-intro">Kompetensi teknis dan keahlian yang sedang dikuasai dalam rekayasa perangkat lunak.</p>
+      </header>
+
+      <div class="skills-grid">
+        <article class="skill-card" data-reveal data-tilt>
+          <div class="skill-header"><i class="fa-brands fa-python skill-icon"></i><h3>Python</h3></div>
+          <span class="skill-badge">Programming</span>
+          <p>Data processing, automation, GUI Tkinter, dan pemecahan masalah.</p>
+        </article>
+        <article class="skill-card" data-reveal data-tilt>
+          <div class="skill-header"><i class="fa-brands fa-html5 skill-icon"></i><h3>HTML5</h3></div>
+          <span class="skill-badge">Web Structure</span>
+          <p>Struktur dokumen semantik dan aksesibilitas web modern.</p>
+        </article>
+        <article class="skill-card" data-reveal data-tilt>
+          <div class="skill-header"><i class="fa-brands fa-css3-alt skill-icon"></i><h3>CSS3 / Styling</h3></div>
+          <span class="skill-badge">Web Styling</span>
+          <p>Responsive design, custom properties, dan animasi sinematik.</p>
+        </article>
+        <article class="skill-card" data-reveal data-tilt>
+          <div class="skill-header"><i class="fa-brands fa-js skill-icon"></i><h3>JavaScript</h3></div>
+          <span class="skill-badge">Interactivity</span>
+          <p>DOM manipulation, localStorage, dan async API handling.</p>
+        </article>
+        <article class="skill-card" data-reveal data-tilt>
+          <div class="skill-header"><i class="fa-solid fa-database skill-icon"></i><h3>Database &amp; SQL</h3></div>
+          <span class="skill-badge">Data Management</span>
+          <p>SQLite &amp; MySQL, relasional ERD, query DDL/DML, dan manajemen data.</p>
+        </article>
+        <article class="skill-card" data-reveal data-tilt>
+          <div class="skill-header"><i class="fa-solid fa-chart-line skill-icon"></i><h3>Data Science</h3></div>
+          <span class="skill-badge">Analytics</span>
+          <p>Eksplorasi data, visualisasi, dan pemodelan untuk pengambilan keputusan.</p>
+        </article>
+        <article class="skill-card" data-reveal data-tilt>
+          <div class="skill-header"><i class="fa-solid fa-robot skill-icon"></i><h3>Artificial Intelligence</h3></div>
+          <span class="skill-badge">Machine Learning</span>
+          <p>Dasar-dasar ML, integrasi model AI, dan otomasi cerdas.</p>
+        </article>
+        <article class="skill-card" data-reveal data-tilt>
+          <div class="skill-header"><i class="fa-solid fa-network-wired skill-icon"></i><h3>Network Engineering</h3></div>
+          <span class="skill-badge">Infrastructure</span>
+          <p>MikroTik RouterOS, Winbox, sub-netting, dan konfigurasi jaringan.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS — IMPERIAL GALLERY ==================== -->
+  <section id="projects" class="section projects">
+    <div class="section-shell">
+      <header class="section-head" data-reveal>
+        <span class="sh-kicker">Chapter IV · Imperial Gallery</span>
+        <h2 class="section-title">MY <em>PROJECTS</em></h2>
+        <div class="sh-divider"><span></span><i class="fa-solid fa-diamond"></i><span></span></div>
+        <p class="section-intro">Ruang pamer karya — catat dan kelola proyek yang telah dikembangkan.</p>
+      </header>
+
+      <div class="gallery-toolbar" data-reveal>
+        <p class="gallery-note"><i class="fa-solid fa-scroll"></i> Setiap karya dipajang seperti artefak di galeri kekaisaran.</p>
+        <button class="btn btn-primary btn-magnetic" id="add-project-btn">
+          <i class="fa-solid fa-plus"></i> Tambah Proyek
+        </button>
+      </div>
+
+      <!-- Form CRUD proyek -->
+      <div id="project-form-wrap" class="form-panel hidden" data-reveal>
+        <div class="form-panel-heading">
+          <h3 id="project-form-title">Tambah Proyek</h3>
+          <button class="icon-btn" type="button" id="cancel-project-btn" aria-label="Tutup formulir"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <form id="project-form" class="data-form">
+          <input type="hidden" id="project-id">
+          <label>Nama Proyek<input id="project-name" required maxlength="100" placeholder="Contoh: POS &amp; Inventory UMKM"></label>
+          <label>Deskripsi<textarea id="project-description" rows="3" required maxlength="500" placeholder="Jelaskan fungsi dan teknologi proyek"></textarea></label>
+          <div class="form-grid">
+            <label>Teknologi<input id="project-tech" maxlength="160" placeholder="Python, SQLite, Tkinter"></label>
+            <label>Status<select id="project-status">
+              <option value="Dalam proses">Dalam proses</option>
+              <option value="Selesai">Selesai</option>
+              <option value="Rencana">Rencana</option>
+            </select></label>
+          </div>
+          <label>Tautan (opsional)<input id="project-link" type="url" placeholder="https://github.com/..."></label>
+          <div class="form-actions">
+            <button type="button" class="btn btn-secondary" id="cancel-project-btn-2">Batal</button>
+            <button class="btn btn-primary" type="submit">Simpan Proyek</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="project-list" class="projects-grid" aria-live="polite"></div>
+      <div id="projects-empty" class="empty-state-card hidden">
+        <i class="fa-solid fa-code-branch empty-state-icon"></i>
+        <h3>Belum ada karya dipajang</h3>
+        <p>Tekan tombol “Tambah Proyek” di atas untuk mulai mencatat portofolio karya Anda.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== JOURNEY & CONTACT ==================== -->
+  <section id="journey" class="section journey">
+    <div class="section-shell">
+      <header class="section-head" data-reveal>
+        <span class="sh-kicker">Chapter V · Perjalanan</span>
+        <h2 class="section-title">JOURNEY &amp; <em>CONTACT</em></h2>
+        <div class="sh-divider"><span></span><i class="fa-solid fa-diamond"></i><span></span></div>
+        <p class="section-intro">Jejak langkah pembelajaran dan kontak langsung untuk kolaborasi.</p>
+      </header>
+
+      <div class="timeline" id="timeline">
+        <article class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026 — Saat Ini</span>
+            <h3>Pengembangan PORTOFOLIO</h3>
+            <p>Mengubah dashboard multi-halaman menjadi pengalaman sinematik satu halaman: loading screen gerbang kekaisaran, flip card arsip akademik 3D, dan scroll animation di seluruh section.</p>
+          </div>
+        </article>
+        <article class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2025 — 2026</span>
+            <h3>Studi Teknik Informatika</h3>
+            <p>Mendalami algoritma, pemrograman berorientasi objek, database, dan arsitektur jaringan komputer.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="contact-box" data-reveal>
+        <svg class="contact-laurel" aria-hidden="true"><use href="#sym-laurel"/></svg>
+        <h2 class="contact-title">MARI <em>TERHUBUNG</em></h2>
+        <p class="contact-desc">Terbuka untuk diskusi akademik, kolaborasi proyek Data Science, dan pengembangan web.</p>
+        <div class="contact-actions">
+          <a href="mailto:ifanmukhamad3@gmail.com" class="btn btn-primary btn-large btn-magnetic">
+            <i class="fa-solid fa-envelope"></i> Kirim Email
+          </a>
+          <a href="https://umc.ac.id/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-large">
+            <i class="fa-solid fa-building-columns"></i> Kampus UMC
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer" aria-label="GitHub" data-cursor="hover"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.instagram.com/fannmkhmd__?vrfl=bGhjdXdocG0yb3J0&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram" data-cursor="hover"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-brand">PORTOFOLIO</span>
+      <span class="footer-copy">© 2026 Ifan Mukhamad Juniawan</span>
+    </div>
+  </footer>
+</main>
+
+<!-- ==================== TOAST ==================== -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!-- ==================== MODAL: DETAIL PERTEMUAN (judul, deskripsi, catatan, file) ==================== -->
+<div class="modal-backdrop hidden" id="meeting-modal" role="dialog" aria-modal="true" aria-labelledby="mm-title">
+  <div class="modal-card">
+    <div class="modal-header">
+      <div>
+        <h3 id="mm-title">Pertemuan</h3>
+        <p id="mm-subtitle" class="modal-subtitle"></p>
+      </div>
+      <div class="modal-header-actions">
+        <button class="icon-btn" id="mm-prev" title="Pertemuan sebelumnya" aria-label="Pertemuan sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="icon-btn" id="mm-next" title="Pertemuan berikutnya" aria-label="Pertemuan berikutnya"><i class="fa-solid fa-chevron-right"></i></button>
+        <button class="icon-btn" id="mm-close" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+
+    <div class="modal-body">
+      <div class="mm-grid">
+        <!-- Kolom kiri: materi -->
+        <div class="mm-material">
+          <h4 class="mm-col-title"><i class="fa-solid fa-feather-pointed"></i> Materi Pertemuan</h4>
+          <label class="mm-label">Judul Materi
+            <input id="mm-title-input" maxlength="140" placeholder="Contoh: Pengenalan Algoritma">
+          </label>
+          <label class="mm-label">Deskripsi Materi
+            <textarea id="mm-desc-input" rows="3" maxlength="600" placeholder="Ringkasan materi yang dibahas…"></textarea>
+          </label>
+          <label class="mm-label">Catatan
+            <textarea id="mm-notes-input" rows="2" maxlength="600" placeholder="Catatan pribadi…"></textarea>
+          </label>
+          <div class="mm-done-row">
+            <label class="mm-toggle">
+              <input type="checkbox" id="mm-done-toggle">
+              <span class="mm-toggle-track"><span class="mm-toggle-thumb"></span></span>
+              <span class="mm-toggle-text">Tandai pertemuan selesai</span>
+            </label>
+            <button class="btn btn-primary btn-small" id="mm-save-meta" data-admin-only>
+              <i class="fa-solid fa-floppy-disk"></i> Simpan Materi
+            </button>
+          </div>
+        </div>
+
+        <!-- Kolom kanan: file tugas -->
+        <div class="mm-filebox">
+          <h4 class="mm-col-title"><i class="fa-solid fa-cloud-arrow-up"></i> File Tugas</h4>
+          <p class="mm-readonly-note hidden" id="mm-readonly-note"><i class="fa-solid fa-eye"></i> Mode Dosen — Anda dapat melihat &amp; mengunduh, tidak dapat mengubah.</p>
+          <label for="mm-file-input" class="item-file-label" id="mm-file-label" data-admin-only>
+            <i class="fa-solid fa-paperclip"></i> Pilih File Tugas Pertemuan
+          </label>
+          <input type="file" id="mm-file-input" hidden>
+          <div class="item-actions-row">
+            <button id="mm-save-file" class="btn btn-primary btn-small" data-admin-only>
+              <i class="fa-solid fa-cloud-arrow-up"></i> Upload
+            </button>
+            <button id="mm-download-btn" class="btn btn-secondary btn-small hidden">
+              <i class="fa-solid fa-download"></i> Unduh
+            </button>
+            <button id="mm-delete-btn" class="btn btn-danger btn-small hidden" data-admin-only>
+              <i class="fa-solid fa-trash"></i> Hapus
+            </button>
+          </div>
+          <p id="mm-status" class="item-status"></p>
+          <div class="mm-note">
+            <i class="fa-solid fa-circle-info"></i> File diunggah Admin ke MySQL via API PHP hosting. Browser menyimpan metadata saja; semua pengunjung dapat mengunduh.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Library animasi (di-vendor agar berjalan offline & tanpa CDN) -->
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script src="cinema.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
